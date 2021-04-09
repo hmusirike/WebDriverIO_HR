@@ -1,0 +1,28 @@
+{
+  "name": "webdriverio-technical-task",
+  "version": "1.0.0",
+  "description": "This is the technical task from ii.co.uk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hema Reddy",
+  "license": "ISC",
+  "devDependencies": {
+    "webdriverio": "^7.3.1",
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.13.14",
+    "@wdio/cli": "^7.2.1",
+    "@wdio/cucumber-framework": "^7.2.1",
+    "@wdio/local-runner": "^7.2.1",
+    "@wdio/spec-reporter": "^7.2.1",
+    "@wdio/sync": "^7.2.1",
+    "chromedriver": "^89.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  },
+  "dependencies": {
+    "@wdio/selenium-standalone-service": "^7.3.1"
+  }
+}
