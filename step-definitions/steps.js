@@ -22,6 +22,9 @@ When(/^I click on the Services dropdown in the top navigation bar$/, function() 
     HomePage.clickOnServicesMenu();
     /**
      * To validate the sub menu Accounts are being displayed or not using node.js assertion
+     * I have used the wdio expect functionality in the below step definitions to just show the variation but usually
+     * in the real-time scenario I prefer to use the same assertion functinality i.e., assert or expect across the code to make it consistent
+     * depending on the requirement
      */
     assert.ok(HomePage.subMenuAccounts.isDisplayed());
 });
