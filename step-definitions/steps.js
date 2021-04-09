@@ -38,7 +38,7 @@ When(/^I click on the Trading Account link in the sub menu$/, function() {
 
 Then(/^I should have landed on the expected trading account URL$/, function() {
     /**
-     * to validate the user is in the right page i.e., Trading Account Url using wdio expect
+     * to validate the user is in the right page i.e., Trading Account Url using WDIO expect
      */
     expect(browser).toHaveUrl('https://www.ii.co.uk/ii-accounts/trading-account');
 });
