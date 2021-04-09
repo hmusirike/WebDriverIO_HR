@@ -21,7 +21,7 @@ When(/^I click on the Services dropdown in the top navigation bar$/, function() 
      */
     HomePage.clickOnServicesMenu();
     /**
-     * To validate the sub menu Accounts are being displayed or not usind node.js assertion
+     * To validate the sub menu Accounts are being displayed or not using node.js assertion
      */
     assert.ok(HomePage.subMenuAccounts.isDisplayed());
 });
