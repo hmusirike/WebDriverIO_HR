@@ -9,6 +9,9 @@ Given(/^I navigate to the Interactive Investor Website$/, function() {
      * To navigate to the Home Page of Interactive Investor Website
      */
     HomePage.navigateToHomePage();  
+    /**
+     * Added a wait to avoid the test failure when the home page takes time to load
+     */
     browser.pause(1000);
 });
 
@@ -18,7 +21,7 @@ When(/^I click on the Services dropdown in the top navigation bar$/, function() 
      */
     HomePage.clickOnServicesMenu();
     /**
-     * To validate the sub menu Accounts are being displayed or not
+     * To validate the sub menu Accounts are being displayed or not usind node.js assertion
      */
     assert.ok(HomePage.subMenuAccounts.isDisplayed());
 });
@@ -32,7 +35,7 @@ When(/^I click on the Trading Account link in the sub menu$/, function() {
 
 Then(/^I should have landed on the expected trading account URL$/, function() {
     /**
-     * to validate the user is in the right page i.e., Trading Account Url
+     * to validate the user is in the right page i.e., Trading Account Url using wdio expect
      */
     expect(browser).toHaveUrl('https://www.ii.co.uk/ii-accounts/trading-account');
 });
