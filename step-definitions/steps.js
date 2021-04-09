@@ -51,7 +51,7 @@ Then(/^The Trading Account page data is displaying correctly$/, function() {
     /**
      * to validate the Trading Account is showing in the bread crumb navigation
      */
-    expect(TradingPage.tradingAccountInBreadCrumb).toHaveTextContaining("Trading account")
+    expect(TradingPage.tradingAccountInBreadCrumb).toHaveText("Trading account")
     /**
      * to check the cost of the trading account a month
      */
