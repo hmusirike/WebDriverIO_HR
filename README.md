@@ -41,9 +41,13 @@ webdriverio - Next-gen browser and mobile automation test framework for Node.js
 *Pre-requisities*
 
 Install Java and set the environment variable JAVA_HOME
+
 Node.js (NODE_PATH)
+
 NPM
+
 Visual Studio Code
+
 Cucumber Framework
 
 *To get Started:*
